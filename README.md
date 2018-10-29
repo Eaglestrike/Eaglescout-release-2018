@@ -113,4 +113,10 @@ var observationFormSchema = {
 }
 ```
 
+## Default Admin User
+Username: `admin@team114.org`
+Password: `team114`
+
+You can change this in `models/user.js` under the `createAdminUserIfNotExists` function. Alternatively, you can create a new admin user via the admin panel and delete the old one.
+
 Default port: 3000
